@@ -154,5 +154,10 @@ AR --> AAL;
 
 
 ### TODO
-- [ ] 更新mermaid 图，加到purple
-- [ ] planner mod加上，并且计算到purple
+- [ ] 更新mermaid 图，加到purple done
+- [ ] planner mod加上，并且计算到purple done
+
+---
+
+purple这步的流体和固体混合自动化很难。为了形成集中的流水线，估计后期得用铁路运矿。
+基础建设随着层数的提高变得需要升级基建设备，进而提高效率。
