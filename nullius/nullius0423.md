@@ -19,6 +19,7 @@ A[发动机] --> B[red];
 C[铁齿轮] --> B;
 D[塑料] --> A;
 E[铁板] --> A;
+E --> AK[铁片];
 F[铁丝] --> A;
 G[铁棒] --> A;
 H[乙烯C2H4] --> D;
@@ -44,12 +45,13 @@ L --> O;
 P --> N;
 L --> N;
 Q[空气] --> M[CO2];
-Q --> I[Cl2];
+Q --> AAJ[N2];
 R[海水] --> S[盐水];
 R --> T[废水DROP];
 S --> I[Cl2];
 S --> N[H2];
 S --> U[O2];
+S --> AAG[氢氧化钠];
 AD[铁矿] --> V;
 AD --> AE[碎石DROP];
 V[铁锭] --> E;
@@ -62,6 +64,73 @@ Y --> Z[地下管道];
 AA[沙子] --> Z;
 AB[砂岩] --> AA;
 AB --> AC[石矿];
+AI[绝缘电线] --> AJ[purple];
+AF[逻辑电路] --> AJ;
+AG[灯] --> AJ;
+AH[电容器] --> AJ;
+P --> AG;
+AK --> AG;
+AL[玻璃] --> AG;
+AM[SIO2] --> AL;
+AN[沙子] --> AM;
+S --> AM;
+AN --> T;
+S --> T;
+AO[橡胶] --> AI;
+AP[铝线] --> AI;
+AQ[铝棒] --> AP;
+AR[铝锭] --> AQ;
+P --> AR;
+AS[AL2O3] --> AR;
+AT[氢氧化铝] --> AS;
+AU[碎铝土矿] --> AT;
+AV[氢氧化钠溶液]  --> AT;
+AU --> AW[DROP污泥];
+AV --> AW;
+AX[铝土矿] --> AU;
+AX --> AZ[碎铁矿石];
+AX --> AAA[沙子];
+AAB[丁二烯] --> AO;
+AAC[苯乙烯] --> AO;
+H --> AAB;
+AAD[蒸汽] --> AAB;
+N --> AAD;
+U --> AAD;
+H --> N;
+AAD --> N;
+H --> AAC;
+AAE[苯] --> AAC;
+H --> N;
+AAE --> N;
+O --> AAE;
+N --> AAE;
+O --> H;
+N --> H;
+O --> AAF[丙烯];
+N --> AAF;
+AAG --> AV;
+L --> AV;
+P --> AF;
+D --> AF;
+AP --> AF;
+AAH[多晶硅] --> AF;
+AAI[硅锭] --> AAH;
+J --> AAH;
+AAJ --> AAH;
+AAI --> N;
+J --> N;
+AAJ --> N;
+AAI --> I;
+J --> I;
+AAJ --> I;
+P --> AAH;
+AM --> AAH;
+P --> AH;
+D --> AH;
+AS --> AH;
+AAK[铝片] --> AH;
+AAL[铝板] --> AAK;
+AR --> AAL;
 ```
 
 ## 计算和目标
@@ -73,10 +142,15 @@ AB --> AC[石矿];
    2. red有很多新的产品，产品使用需要熟悉。
    3. 基础建设的增加。
       1. 矿需要很多采矿机(根据planner来计算)
-      2. 需要组装机/机械臂/传送带/铁齿轮/铁板/管道 --> 估计算是结构上的第二层，设计时，留“自己都无法想象的空隙”
+      2. 需要组装机/机械臂/传送带/铁齿轮/铁板/铁棒/管道 --> 估计算是结构上的第二层，设计时，留“自己都无法想象的空隙”
       3. 开地图？
 
 ### 计算
+
+- red 317
+  - ![hI3skF_w2RMIY](https://cdn.jsdelivr.net/gh/h3x311/upic@main/uPic/2022/hI3skF_w2RMIY.png)
+- yellow 265
+- blue 247
 
 
 ### TODO
