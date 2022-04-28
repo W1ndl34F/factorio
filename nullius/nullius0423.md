@@ -89,7 +89,7 @@ AU --> AW[DROP污泥];
 AV --> AW;
 AX[铝土矿] --> AU;
 AX --> AZ[碎铁矿石];
-AX --> AAA[沙子];
+AX --> AA[沙子];
 AAB[丁二烯] --> AO;
 AAC[苯乙烯] --> AO;
 H --> AAB;
