@@ -154,5 +154,5 @@ AR --> AAL;
 
 
 ### TODO
-1. 更新mermaid 图，加到purple
-2. planner mod加上，并且计算到purple
+- [ ] 更新mermaid 图，加到purple
+- [ ] planner mod加上，并且计算到purple
